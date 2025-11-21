@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn-regular-dark {
+    @apply bg-zinc-800 text-white;
+  }
+}
